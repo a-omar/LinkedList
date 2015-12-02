@@ -18,7 +18,7 @@ public class MyApp {
      */
     public static void main(String[] args) {
         Random r = new Random();
-        int a = r.nextInt(100);
+       // int a = r.nextInt(100);
         Node myList = new Node();
         for (int i = 0; i < 5; i++) {
             myList = addNode(i, myList);
