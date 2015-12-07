@@ -25,6 +25,10 @@ public class MyApp {
         }
         int len = nodeListLen(myList);
         System.out.println("===: " + len);
+        
+        if( TogglzDemo.FEATURE_ONE.isActive() ) {
+        // new stuff here
+}
     }
 
     static Node addNode(int n, Node prevNode) {
